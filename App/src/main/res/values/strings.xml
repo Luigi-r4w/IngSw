@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DietiDeals24</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="compratore">Compratore</string>
+    <string name="venditore">Venditore</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nome">Nome</string>
+    <string name="bio">Biografia</string>
+    <string name="link">Link</string>
+    <string name="insert_email">Inserisci Email</string>
+    <string name="insert_password">Inserisci Password</string>
+    <string name="insert_nome">Inserisci Nome</string>
+    <string name="insert_bio">Inserisci Biografia</string>
+    <string name="insert_link">Inserisci Link</string>
+    <string name="log_out">Log out</string>
+    <string name="tipoutente">Tipo Utente</string>
+    <string name="creaAsta">Crea Asta</string>
+    <string name="mieAste">Le mie Aste Aste</string>
+    <string name="aste">Aste attive : </string>
+    <string name="open_">Open</string>
+    <string name="close_">Close</string>
+    <string name="profilo_">Profilo</string>
+    <string name="notifiche_">Notifiche</string>
+    <string name="nuove_aste_future">Saranno presto disponibili\naltri tipi di aste,\n aspettateci. </string>
+    <string name="asta_inglese">Asta all’Inglese\nIl tempo si resetta quando\navviene una nuova offerta  </string>
+</resources>

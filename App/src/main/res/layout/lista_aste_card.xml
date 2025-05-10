@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:padding="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="161dp">
+
+
+        <ImageView
+            android:id="@+id/immagineView"
+            android:layout_width="131dp"
+            android:layout_height="138dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="228dp"
+            android:contentDescription="immagine quadro" />
+
+        <TextView
+            android:id="@+id/nomeTxt"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/immagineView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="173dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-114dp"
+            android:layout_marginEnd="47dp"
+            android:text="Nome"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/utenteTxt"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/immagineView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="174dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-67dp"
+            android:layout_marginEnd="46dp"
+            android:text="Nome"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
